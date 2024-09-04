@@ -14,7 +14,7 @@ export const authOptions = {
 
     ],
 
-    secret: process.env.JWT_SECRET
+    secret: process.env.NEXTAUTH_SECRET
 
 }
 
