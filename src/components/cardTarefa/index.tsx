@@ -1,3 +1,5 @@
+'use client'
+
 import db from '@/services/firebaseConnection'
 import { collection, deleteDoc, doc, getDoc, getDocs, query, where } from 'firebase/firestore'
 import { Trash, Eye, Lock, Share2, MessageCircle } from 'lucide-react'
